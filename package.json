@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon api/server.js",
-    "build": "express build --output public",
+    "build": "npm install",
     "start": "node api/server.js"
   },
   "type": "module",
