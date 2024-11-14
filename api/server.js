@@ -8,7 +8,7 @@ const app = express();
 
 const port = process.env.PORT || 5001;
 
-app.use("/api/music/rating", MusicRouter);
+app.use("/", MusicRouter);
 
 app.listen(port, () => {
   connectDB();
