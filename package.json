@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon api/server.js",
-    "build": "npm install",
+    "build": "sanity build",
     "start": "node api/server.js"
   },
   "type": "module",
